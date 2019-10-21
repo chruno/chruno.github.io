@@ -1,0 +1,15 @@
+---
+title: "Remove a bash warning in macOS catalina terminal"
+date: 2019-10-21 10:53:00 +0900
+categories: macOS
+---
+
+아래 내용을 .bash_profile 또는 .profile 에 추가
+( $HOME/.bash_profile or $HOME/.profile )
+
+```shell
+export BASH_SILENCE_DEPRECATION_WARNING=1
+``` 
+
+
+
