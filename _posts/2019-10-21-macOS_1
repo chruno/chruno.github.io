@@ -1,0 +1,11 @@
+title: "macOS 카탈리나 터미널 시작시 Bash 경고 제거"
+date: 2019-10-21 10:53:00 +0900
+categories: macOS
+---
+
+아래 내용을 .bash_profile 또는 .profile 에 추가
+( $HOME/.bash_profile or $HOME/.profile )
+
+```shell
+export BASH_SILENCE_DEPRECATION_WARNING=1
+``` 
