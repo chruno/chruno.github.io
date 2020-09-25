@@ -1,0 +1,13 @@
+type=dhcp-client
+ip-address=
+default-gateway=
+netmask=
+ipv6-address=
+ipv6-default-gateway=
+hostname=$HOST_NAME
+vm-auth-key=$AUTH_KEY
+panorama-server=$PANORAMA_IP
+tplname=$TPL_NAME
+dgname=$DG_NAME
+dns-primary=168.126.63.1
+dns-secondary=168.126.63.2   
