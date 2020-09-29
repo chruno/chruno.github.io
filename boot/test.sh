@@ -1,6 +1,5 @@
 #!/bin/sh
 
-sudo mkdir /tmp/test
-sudo cd /tmp/text
-sudo wget https://github.com/chruno/chruno.github.io/raw/master/boot/bootstrap.tgz
-sudo tar xvfz -C /
+sudo mkdir -p /tmp/test
+sudo cd /tmp/test
+sudo echo "HelloOZ" > /tmp/test/hello.txt
