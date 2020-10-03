@@ -1,0 +1,13 @@
+type=dhcp-client
+ip-address=
+default-gateway=
+netmask=
+ipv6-address=
+ipv6-default-gateway=
+hostname=PA_VNF1
+vm-auth-key=V2944823
+panorama-server=117.52.252.61
+tplname=FINANCE_TG4
+dgname=finance_dg
+dns-primary=168.126.63.1
+dns-secondary=168.126.63.2   
