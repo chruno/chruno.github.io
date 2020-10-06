@@ -1,8 +1,6 @@
 #!/bin/sh
 
-# Example script to run at boot
-# This installs pip3
-echo "Hello OZ" > /root/oz-boot.log
+# byOZ 2020.10
 
 INIT_CFG_CONTENT="
 type=dhcp-client
